@@ -34,4 +34,17 @@
         android:background="#0DDD5A5A"
         />
 
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/main_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_viewpager"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#74DF5656"
+        android:contentDescription="@string/tabLayoutDescription"
+        app:tabTextColor="@color/black"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
